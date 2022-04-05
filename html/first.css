@@ -1,0 +1,19 @@
+body{
+    background-color: dimgray;
+}
+
+p{
+    background-color: antiquewhite;
+    color: orange;
+}
+
+.secondo{
+color: mediumaquamarine;
+}
+
+.terzo{
+    color: cyan;
+}
+.terzo p{
+    color: rgb(91, 116, 255);
+}

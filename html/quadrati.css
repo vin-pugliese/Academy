@@ -1,0 +1,25 @@
+body{
+    background-color: gray;
+}
+
+
+.table{
+    align-items: center;
+    position: absolute;
+    top: 25%;
+    left: 25%;
+}
+
+.squares{
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+    padding: 10px;
+    background-color: aqua;
+    border: 20px solid black; 
+    margin: 10px;
+    text-align: center;
+}
+
+
+
