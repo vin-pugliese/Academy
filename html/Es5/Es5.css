@@ -1,0 +1,44 @@
+body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; 
+    font-size: x-large;
+    background: rgb(122, 179, 179);
+ }
+ 
+ .title{
+     width: 50%;
+     margin: auto;
+     text-align: center;
+ }
+
+ 
+
+ .container{
+    margin-top: 50px;
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: row;
+    text-align: justify;
+ }
+
+ .left{
+     margin-left: 50px;
+     width: 70%;
+ }
+
+.container section div{
+    border: 1px solid black;
+    margin: 3px;
+    padding: 20px;
+    border-radius: 2%;
+ }
+
+ .right {
+     width: 80%;
+    margin-right: 50px;
+    flex-direction: column;
+ }
+
+.right form input:focus{
+    background-color: aqua;
+}
+ 
