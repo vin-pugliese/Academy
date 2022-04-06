@@ -17,8 +17,6 @@ function tombola(){
         cartella.push(x);
     }
 
-
-
     for(i=0; i<tabellone.length; i++){
         for(j=0; j<cartella.length; j++){
             if(tabellone[i] == cartella[j]){
@@ -28,27 +26,17 @@ function tombola(){
     }
 
 
-
     switch (count){
         case 2: document.write("ambo");
                 break;
         case 3: document.write("terno");
                 break;
-
         case 4: document.write("quaterna");
                 break;
-
         case 5: document.write("cinquina");
                 break;
-
         case 10: document.write("tombola");
                 break;
         default: document.write("sballato");
     }
-
-
-
-    
-
-
 }
