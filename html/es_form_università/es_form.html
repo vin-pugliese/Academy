@@ -1,0 +1,53 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+<title>Esercitazione form - Randstad Academy</title>
+<link rel="stylesheet" href="es_form.css">
+
+</head>
+
+<body>
+   
+
+<h1 class="title">Esercitazione form</h1>    
+
+
+    <div class="container">
+        <form name="form_es" action="/script/to/server" method="get" onsubmit="alert('Form completato')">
+            <p>Cognome: <input type="text" id="lastname" placeholder="lastname" maxlength="40" required/></p>
+            
+            <p>Nome: <input type="text" id="name" placeholder="name" maxlength="30" required/></p>
+            
+            <p>Matricola: <input type="number" id="matricola" maxlength="7" required/></p>
+            
+            <p>Regione <select id="region" required>
+                <option value ="campania">Campania</option>
+                <option value ="Molise">molise</option>
+                <option value ="abruzzo">abruzzo</option>
+                <option value ="puglia">puglia</option>
+            </select></p>    
+
+            <p>Email: <input type="text" id="email" placeholder="example@example" maxlength="30" /></p>
+            
+            <p>telefono: <input type="tel" id="tel" maxlength="11" pattern="[0-9]{3}-[0-9]{7}" required/></p>
+            
+            <p>Status: <input type="text" id="status" maxlength="30" list="statusList"/> 
+            <datalist id="statusList">
+                <option>In corso</option>
+                <option>fuori corso</option>
+                <option>carriera in pausa</option>
+                <option>laureato</option>    
+            </datalist>     
+            </p>                  
+            
+            <p>Richieste particolari: <textarea name="richieste" cols="60" rows="12"></textarea></p>              
+            
+            <input type="submit" value="ok" />
+            
+            <input type="reset" value="annulla" />
+        </form>
+    </div>
+
+</body>
