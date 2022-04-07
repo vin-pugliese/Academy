@@ -1,0 +1,34 @@
+body{
+    background-color: aquamarine;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+.title{
+    width: 30%;
+    margin: auto;
+}
+
+.container{
+    margin-top: 50px;
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    align-items: center;
+}
+
+
+
+.squares{
+  
+    margin: auto;
+    height: 100px;
+    width: 100px;
+    border: 3 px solid black;
+}
+
+#res{
+    width:20%;
+}
+
