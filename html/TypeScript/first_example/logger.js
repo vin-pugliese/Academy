@@ -1,9 +1,11 @@
+// @ts-ignore
 var LEVEL;
 (function (LEVEL) {
     LEVEL[LEVEL["INFO"] = 0] = "INFO";
     LEVEL[LEVEL["WARN"] = 1] = "WARN";
     LEVEL[LEVEL["ERROR"] = 2] = "ERROR";
 })(LEVEL || (LEVEL = {}));
+// @ts-ignore
 var Logger = /** @class */ (function () {
     function Logger(name, level) {
         this.name = name;

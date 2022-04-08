@@ -31,4 +31,6 @@ class Math{
         return (this.width*this.height) /2;
     }
 
+
+
 }

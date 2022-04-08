@@ -1,11 +1,13 @@
 import { FIGURE } from "./FIGURE";
+import { Operable } from "./Operable";
 
 // @ts-ignore
-class Square{
+class Square extends Operable{
     figure: FIGURE;
     width: number;
 
     constructor(width:number){
+        super();
         this.figure = FIGURE.SQUARE
         this.width = width;
     }

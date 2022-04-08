@@ -1,12 +1,14 @@
 import { FIGURE } from "./FIGURE";
+import { Operable } from "./Operable";
 
 // @ts-ignore
-class Triangle{
+class Triangle extends Operable{
     figure: FIGURE;
     width: number;
     height: number;
 
     constructor(width:number, height:number){
+        super();
         this.figure = FIGURE.TRIANGLE
         this.width = width;
         this.height = height;

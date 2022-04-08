@@ -1,5 +1,3 @@
-"use strict";
-exports.__esModule = true;
 var Math = /** @class */ (function () {
     function Math() {
     }
@@ -19,3 +17,4 @@ var Math = /** @class */ (function () {
     };
     return Math;
 }());
+export {};

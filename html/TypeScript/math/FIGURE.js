@@ -1,6 +1,3 @@
-"use strict";
-exports.__esModule = true;
-exports.FIGURE = void 0;
 // @ts-ignore
 var FIGURE;
 (function (FIGURE) {
@@ -8,4 +5,4 @@ var FIGURE;
     FIGURE[FIGURE["RECTANGLE"] = 1] = "RECTANGLE";
     FIGURE[FIGURE["TRIANGLE"] = 2] = "TRIANGLE";
 })(FIGURE || (FIGURE = {}));
-exports.FIGURE = FIGURE;
+export { FIGURE };
