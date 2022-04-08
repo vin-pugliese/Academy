@@ -2,6 +2,7 @@
 exports.__esModule = true;
 exports.Rectangle = void 0;
 var FIGURE_1 = require("./FIGURE");
+// @ts-ignore
 var Rectangle = /** @class */ (function () {
     function Rectangle(width, height) {
         this.figure = FIGURE_1.FIGURE.RECTANGLE;

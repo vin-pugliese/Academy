@@ -1,6 +1,7 @@
 "use strict";
 exports.__esModule = true;
 exports.FIGURE = void 0;
+// @ts-ignore
 var FIGURE;
 (function (FIGURE) {
     FIGURE[FIGURE["SQUARE"] = 0] = "SQUARE";

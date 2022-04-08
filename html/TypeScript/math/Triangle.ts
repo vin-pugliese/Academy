@@ -1,5 +1,6 @@
 import { FIGURE } from "./FIGURE";
 
+// @ts-ignore
 class Triangle{
     figure: FIGURE;
     width: number;
@@ -25,4 +26,3 @@ class Triangle{
 }
 
 export {Triangle};
-

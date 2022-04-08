@@ -1,10 +1,9 @@
-
 import { Square } from "./Square";
 import { Rectangle } from "./Rectangle";
 import { Triangle } from "./Triangle";
 
 
-class type{
+class Math{
 
     
     width: number;

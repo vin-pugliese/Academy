@@ -2,6 +2,7 @@
 exports.__esModule = true;
 exports.Triangle = void 0;
 var FIGURE_1 = require("./FIGURE");
+// @ts-ignore
 var Triangle = /** @class */ (function () {
     function Triangle(width, height) {
         this.figure = FIGURE_1.FIGURE.TRIANGLE;
