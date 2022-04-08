@@ -1,0 +1,14 @@
+{
+  "name": "html",
+  "version": "1.0.0",
+  "description": "Repository created for the RANDSTAD Java Academy.\r Here will be uploaded all the contents regarding FRONT-END Development (HTML, CSS, JavaScript)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "lodash": "^4.17.21"
+  }
+}
