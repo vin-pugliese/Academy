@@ -1,4 +1,5 @@
 
+
 interface IRunnable extends IThread{
     run(): IUser;
 }
